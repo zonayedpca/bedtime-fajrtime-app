@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Before Fajr app icon">
+  <defs>
+    <linearGradient id="bg" x1="74" y1="48" x2="444" y2="472" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#102b3b"/>
+      <stop offset="0.55" stop-color="#091923"/>
+      <stop offset="1" stop-color="#07131c"/>
+    </linearGradient>
+    <linearGradient id="curve" x1="105" y1="345" x2="408" y2="246" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ad91ff"/>
+      <stop offset="1" stop-color="#6de1bb"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0" cy="0" r="1" gradientTransform="translate(365 350) rotate(90) scale(104)">
+      <stop stop-color="#fff4bc"/>
+      <stop offset="0.55" stop-color="#ffd36b"/>
+      <stop offset="1" stop-color="#f2a05e" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="118" fill="url(#bg)"/>
+  <circle cx="364" cy="350" r="96" fill="url(#sun)" opacity="0.8"/>
+  <path d="M86 375H426" stroke="#f8d978" stroke-width="13" stroke-linecap="round" opacity="0.92"/>
+  <path d="M306 375a58 58 0 0 1 116 0" fill="none" stroke="#ffd36b" stroke-width="18" stroke-linecap="round"/>
+  <g filter="url(#shadow)">
+    <path d="M171 102c-50 27-79 82-68 140 13 70 80 117 150 104 31-6 58-22 78-45-20 7-42 9-64 5-68-12-113-76-101-144 4-23 14-43 29-60-8-1-16-1-24 0Z" fill="#f4fbff"/>
+    <path d="M111 330c45-28 82-17 119-4 44 15 88 30 169-24" fill="none" stroke="url(#curve)" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="111" cy="330" r="17" fill="#ad91ff" stroke="#101e2a" stroke-width="8"/>
+    <circle cx="399" cy="302" r="17" fill="#6de1bb" stroke="#101e2a" stroke-width="8"/>
+  </g>
+  <path d="M112 410H400" stroke="#ffffff" stroke-opacity="0.12" stroke-width="8" stroke-linecap="round"/>
+</svg>
